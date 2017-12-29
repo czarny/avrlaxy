@@ -37,6 +37,7 @@ typedef union {
 
 void ds3231_init(void);
 void ds3231_read_datetime(ds3231_datetime *date);
+void ds3231_write_datetime(ds3231_datetime *date);
 void ds3231_read_temp(ds3231_temp *temp);
 
 
